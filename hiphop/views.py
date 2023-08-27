@@ -13,4 +13,5 @@ def greet(request, name):
     return render(request, 'hiphop/artist.html', {
         "name": name,
         "date": datetime.datetime.now(),
-    })
+        "day": "today"
+        })
